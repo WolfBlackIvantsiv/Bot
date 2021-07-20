@@ -12,7 +12,7 @@ def send_welcome(message):
     chatID = message.chat.id
     bot.reply_to(message,
                  """ Привіт! \nРаді бачити вас у нашому ламповому чатику, що об'єднює ходорівську громаду! \nЯ - Бот, що імітує всім відомого Женіка, любителя сказати "Е".Вам розв'язані руки для обговорення що до будь-які теми, та \nпам'ятайте, у кожної теми є свої межі(правила), почувайтеся як у дома,та хорошого спілкування!""")
-    f = open("Женік\ГІФ\ezgif.com-add-text.gif.mp4", "rb")
+    f = open("ezgif.com-add-text.gif.mp4", "rb")
     bot.send_animation(chatID, f)
 
 
@@ -33,95 +33,85 @@ def send_text(message):
     elif text == "сергій" or text == "сергій":
         bot.reply_to(message, "Найкращий в світі!!!")
     elif text == "!к" and "!к" or text == "!команди" and "!команди":
-        f = open("Женік\Txt\Команди.txt", "rb")
+        f = open("Команди.txt", "rb")
         bot.send_document(chatID, f)
     elif text == "шо робиш" and "шо робиш" or text == "шо робиш?" and "шо робиш?" or text == "що робиш" and "що робиш" or text == "що робиш?" and "що робиш?":
-        f = open("Женік\Аудіо\ібу_і_пю.mp3", "rb")
+        f = open("ібу_і_пю.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "хуй" and "хуй" or text == "пизда" and " пизда":
-        f = open("Женік\Аудіо\хуя_собі_свого_зніми.mp3", "rb")
+        f = open("хуя_собі_свого_зніми.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "сука" and "сука" or text == "блять" and "блять" or text == "блядь":
-        f = open("Женік\Аудіо\тикурвайобанаблять.mp3", "rb")
+        f = open("тикурвайобанаблять.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == " їбати" and " їбати" or text == "єбати" and "єбати" or text == "єбу" and "єбу" or text == "я єбу" and "я єбу" or text == "в'єбати" and "в'єбати" or text == "вєбати" and "вєбати":
-        f = open("Женік\Аудіо\я_ше_можу_вебати.mp3", "rb")
+        f = open("я_ше_можу_вебати.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "ого" and "ого":
-        f = open("Женік\Аудіо\ніхуясобіблять.mp3", "rb")
+        f = open("ніхуясобіблять.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "марічка" and "марічка":
         bot.reply_to(message, "Найкраща в світі!!!")
     elif text == "тихо" and "тихо" or text == "рот закрий" and "рот закрий":
-        f = open("Женік\Аудіо\завалю_по_єбалу_точно.mp3", "rb")
+        f = open("завалю_по_єбалу_точно.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "уєбав" and "уєбав" or text == "пішов ти" and "пішов ти":
-        f = open("Женік\Аудіо\уебав.mp3", "rb")
+        f = open("уебав.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "мля" and "мля" or text == "бля" and "бля":
-        f = open("Женік\Аудіо\тваюматьблять....mp3", "rb")
+        f = open("тваюматьблять....mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "блять" and "блять" or text == "блядь" and "блядь" or text == "соси" and "соси" and "блядь" or text == "курва" and "курва":
-        f = open("Женік\Аудіо\зара_точно_перехуяру.mp3", "rb")
+        f = open("зара_точно_перехуяру.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "шо" and "шо" or text == "не поняв" and "не поняв" or text == "ясно" and "ясно":
-        f = open("Женік\Аудіо\издєуиууиуиу_непонятне_бубніння.mp3", "rb")
+        f = open("издєуиууиуиу_непонятне_бубніння.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "закрий рот" and "закрий рот" or text == "тихо буть" and "тихо буть" or text == "тихо будь" and "тихо будь":
-        f = open("Женік\Аудіо\завалю_по_єбалу_точно.mp3", "rb")
+        f = open("завалю_по_єбалу_точно.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "е" and "е" or text == "e" and "e":
-        f = open("Женік\Аудіо\е.mp3", "rb")
+        f = open("е.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "даун?" and "даун?" or text == "дурачок?" and "дурачок?":
-        f = open("Женік\Аудіо\бля_ти_далбайоб.mp3", "rb")
+        f = open("бля_ти_далбайоб.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "хуйня" and "хуйня" or text == "пизда" and "пизда" or text == "не знімай" and "не знімай" or text == "зніми" and "зніми" or text == "відео" and "відео" or text == "хуя собі свого зніми" and "хуя собі свого зніми":
-        f = open("Женік\Аудіо\хуя_собі_свого_зніми.mp3", "rb")
+        f = open("хуя_собі_свого_зніми.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "ти дебіл" and "ти дебіл" or text == "ти тупий" and "ти тупий" or text == "далбайоб" and "далбайоб" or text == "ти дебіл?" and "ти дебіл?" or text == "ти тупий?" and "ти тупий?" or text == "довбойоб" and "довбойоб":
-        f = open("Женік\Аудіо\бля_ти_далбайоб.mp3", "rb")
+        f = open("бля_ти_далбайоб.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "йди нахуй" and "йди нахуй" or text == "йди ти" and "йди ти":
-        f = open("Женік\Аудіо\диннахуй.mp3", "rb")
+        f = open("диннахуй.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "не нервуй" and "не нервуй" or text == "пішов ти" and "пішов ти":
-        f = open("Женік\Аудіо\йди_ннахуй_заєбав.mp3", "rb")
+        f = open("йди_ннахуй_заєбав.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "куда?" and "куда?" or text == "куда" and "куда":
-        f = open("Женік\Аудіо\куда.mp3", "rb")
+        f = open("куда.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "ти поганий" and "ти поганий" or text == "ти погана" and "ти погана":
-        f = open("Женік\Аудіо\тикурвайобанаблять.mp3", "rb")
+        f = open("тикурвайобанаблять.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "шо сказав?" and "шо сказав?" or text == "що сказав?" and "що сказав?" or text == "шо бля?" and "шо бля":
-        f = open("Женік\Аудіо\куда.mp3", "rb")
+        f = open("куда.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "жостко" and "жостко" or text == "ніхуя собі" and "ніхуя собі" or text == "ніхуя собі блять" and "ніхуя собі блять":
-        f = open("Женік\Аудіо\ніхуясобіблять_тивєбав_е.mp3", "rb")
+        f = open("ніхуясобіблять_тивєбав_е.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "міст" and "міст" or text == "моста" and "моста" or text == "кличко" and "кличко" or text == "впав" and "впав":
-        f = open("Женік\Аудіо\який_міст_впизду_бля.mp3", "rb")
+        f = open("який_міст_впизду_бля.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "вікна" and "вікна" or text == "йоб тваю мать з тими вікнками" and "йоб тваю мать з тими вікнками":
-        f = open("Женік\Аудіо\йобтваюматьзтимивікнкаминахуйблять.mp3", "rb")
+        f = open("йобтваюматьзтимивікнкаминахуйблять.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "ало" and "ало" or text == "альо" and "альо":
-        f = open("Женік\Аудіо\альобля.mp3", "rb")
+        f = open("альобля.mp3", "rb")
         bot.send_audio(chatID, f)
     elif text == "га" and "га" or text == "га?" and "га?":
-        f = open("Женік\Аудіо\га.mp3", "rb")
+        f = open("га.mp3", "rb")
         bot.send_audio(chatID, f)
-
-    elif text == "!mem" and "!mem" or text == "!мем" and "!мем":
-        path = "Женік/Mems"
-        pic = random.choice([
-            x for x in os.listdir(path)
-            if os.path.isfile(os.path.join(path, x))])
-        a = "Женік/Mems/"
-        main = os.path.abspath(a + pic)
-        f = open(main, "rb")
-        bot.send_photo(chatID, f)
 
     elif text == "!w" and "!w" or text == "!п" and "!п" or text == "!погода" and "!погода":
         owm = pyowm.OWM('0cee35c4d29f2fcc16a2c9ae2d965d3d')
